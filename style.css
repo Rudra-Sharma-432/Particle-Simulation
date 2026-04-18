@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #212121;
+  position: relative;
+}
+#ui {
+  position: absolute;
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#addmass {
+  width: 210px;
+  display: flex;
+  justify-content: space-between;
+}
+
+p {
+  color: white;
+  font-family: Arial;
+}
+
+canvas {
+  position: absolute;
+  top: 15vh;
+  left: 5vw;
+  display: block;
+  background-color: #000000;
+  border-radius: 20px;
+}
